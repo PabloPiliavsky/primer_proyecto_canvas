@@ -1,0 +1,36 @@
+html, body { /* se los sque para que no molesten en e lmovimiento con teclas*/
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myCanvas{
+    border: 1px solid grey;
+}
+
+#alert {
+    background-color: #f0f8ff; /* Fondo azul claro suave */
+    color: #333; /* Texto oscuro para buena legibilidad */
+    padding: 10px 15px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-left: 4px solid #4682b4; /* Borde izquierdo de color azul acero */
+    font-family: 'Verdana', sans-serif; /* Fuente limpia y moderna */
+    line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+    margin: 15px 0; /* Espaciado arriba y abajo */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#alert:hover {
+    background-color: #e0ffff; /* Fondo más claro al pasar el mouse */
+    transform: scale(1.02); /* Ligeramente más grande al pasar el mouse */
+}
